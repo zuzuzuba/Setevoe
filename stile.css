@@ -1,0 +1,63 @@
+.p{
+    font-family:monospace;
+    font-style: italic;
+    font-size: 150%;
+    text-decoration: none;
+    color: black;
+}
+
+.t{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.t1{
+    color: rgb(0,0,0);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.t2{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.t3{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.r7{
+    border-radius: 50%;
+}
+
+A:link{
+    color:	#8B6969;
+    font-family: sans-serif;
+    font-size: 21px;
+    padding-top: 5px;
+    padding-left: 20px;
+    text-decoration: none;}
+A:visited{color:	#A52A2A;
+    font-family: sans-serif;
+    font-size: 21px;
+    padding-top: 5px;
+    padding-left: 20px;
+    text-decoration: none;}
+A:hover {color: #FF4500}
+.zagolovok{color: black; font-size: 18px; font-weight: 400;}
+.krat{color: brown ; font-size: 14px; font-style: italic; line-height: 16px}
+.podr{color: #484343; font-size: 16px; font-weight: 400; line-height: 24px; text-align: left;}
+.ul{list-style: none; list-style-image: url(sp.png); padding-left: 24px; color: #FFA500; font-family: sans-serif; font-size: 16px; font-style: italic;}
+.img{border: 3px solid #8B795E;}
+.img:hover{ border-color: transparent;}
+.nazv{text-align: center;color: #8B6969; font-size: 35px; font-family: cursive; padding-left: 50px;}
+.center{text-align: center;}
+.menu{color: brown; font-size: 30px; font-family: monospace;}
+.almenu{ font-size: 22px; font-family: cursive;}
