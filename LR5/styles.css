@@ -1,0 +1,421 @@
+#head{
+    position: absolute;
+width: 1116px;
+height: 57px;
+left: 405px;
+top: 22px;
+background: url(img/top-line.png);
+}
+
+#first-screen {
+    position: absolute;
+    width: 1920px;
+    height: 670px;
+    left: 0px;
+    top: 110px;
+    background: url(img/saintp.jpg);
+}
+
+#first-screen h1 {
+    position: absolute;
+    width: 589px;
+    height: 117px;
+    left: 405px;
+    top: 170px;
+    font-family: Merriweather, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+#first-screen button{
+    color: white;
+    background: #005FA3;
+    position: absolute;
+    width: 270px;
+    height: 60px;
+    left: 423px;
+    top: 386px;
+}
+
+#slider-controls{
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    left: 405px;
+    top: 547px;
+}
+
+#slider__button-prev{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 1395px;
+top: 497px;
+
+opacity: 0.2;
+}
+
+#slider__button-next{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 1455px;
+top: 497px;
+
+opacity: 0.4;
+}
+
+#throught-screen{
+    position: absolute;
+width: 1920px;
+height: 1242px;
+left: 0px;
+top: 780px;
+
+background: #EBEBEB;
+}
+
+#throught-screen h1{
+    position: absolute;
+width: 445px;
+height: 23px;
+left: 405px;
+top: 140px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+
+color: #BDBDBD;    
+}
+
+#throught-screen h2{
+    position: absolute;
+width: 663px;
+height: 47px;
+left: 407px;
+top: 203px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+
+
+color: #333333;
+}
+
+#throught-screen h3{
+    position: absolute;
+width: 187px;
+height: 54px;
+left: 450px;
+top: 598px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+#throught-screen h4{
+    position: absolute;
+width: 187px;
+height: 54px;
+left: 830px;
+top: 590px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+#throught-screen h5{
+    position: absolute;
+width: 187px;
+height: 54px;
+left: 1210px;
+top: 585px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+#throught-screen h6{
+    position: absolute;
+width: 187px;
+height: 54px;
+left: 450px;
+top: 950px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+#throught-screen h7{
+    position: absolute;
+width: 187px;
+height: 54px;
+left: 830px;
+top: 1003px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+#throught-screen h8{
+    position: absolute;
+width: 187px;
+height: 54px;
+left: 1210px;
+top: 1003px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+#th-img-bl{
+    position: absolute;
+width: 350px;
+height: 360px;
+left: 405px;
+top: 352px;
+
+background: linear-gradient(0deg, rgba(0, 95, 163, 0.65), rgba(0, 95, 163, 0.65)), url(img/th_img_bl.png);
+}
+
+#th-img-all{
+    position: absolute;
+width: 350px;
+height: 360px;
+left: 785px;
+top: 352px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/th_img_all.png);
+}
+
+#th3{
+    position: absolute;
+width: 350px;
+height: 360px;
+left: 1165px;
+top: 352px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/th_img_all.png);    
+}
+
+#th4{
+   position: absolute;
+width: 350px;
+height: 360px;
+left: 405px;
+top: 742px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/th_img_all.png);
+}
+
+#th5{
+   position: absolute;
+width: 350px;
+height: 360px;
+left: 785px;
+top: 742px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/th_img_all.png);
+}
+
+#th6{
+    position: absolute;
+width: 350px;
+height: 360px;
+left: 1165px;
+top: 742px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(img/th_img_all.png);
+}
+
+#third-screen{
+    position: absolute;
+width: 1920px;
+height: 630px;
+left: 0px;
+top: 1912px;
+
+background: #EBEBEB;
+}
+
+#third-screen h1{
+   position: absolute;
+width: 350px;
+height: 23px;
+left: 405px;
+top: 100px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+
+color: #BDBDBD; 
+}
+
+#third-screen h2{
+    position: absolute;
+width: 483px;
+height: 47px;
+left: 407px;
+top: 163px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 69px;
+
+color: #333333;
+}
+
+#th-scr1{
+    position: absolute;
+width: 255px;
+height: 130px;
+left: 405px;
+top: 290px;
+
+background: url(img/third_scr.png);
+}
+
+#th-scr2{
+    position: absolute;
+width: 255px;
+height: 130px;
+left: 690px;
+top: 290px;
+
+background: url(img/third_scr.png);
+}
+
+#th-scr3{
+    position: absolute;
+width: 255px;
+height: 130px;
+left: 975px;
+top: 290px;
+
+background: url(img/third_scr.png);
+}
+
+#th-scr4{
+    position: absolute;
+width: 255px;
+height: 130px;
+left: 1260px;
+top: 290px;
+
+background: url(img/third_scr.png);
+}
+
+#slider-controls3{
+    position: absolute;
+    width: 160px;
+    height: 10px;
+    left: 405px;
+    top: 520px;
+}
+
+#slider__button-prev3{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 1395px;
+top: 470px;
+
+opacity: 0.2;
+}
+
+#slider__button-next3{
+    position: absolute;
+width: 60px;
+height: 60px;
+left: 1455px;
+top: 470px;
+
+opacity: 0.4;
+}
+
+#footer{
+    position: absolute;
+    width: 1108px;
+    height: 20px;
+    left: 0px;
+    top: 2542px;
+}
+
+#footer h1{
+    position: absolute;
+width: 574px;
+height: 20px;
+left: 407px;
+top: 40px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+
+color: #000000;
+}
+
+#footer h2{
+    position: absolute;
+width: 401px;
+height: 20px;
+left: 1114px;
+top: 40px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+}
