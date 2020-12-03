@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Винный магазин</title>
+<link rel="stylesheet" href="stile.css" type="text/css">
+    <style>
+    body{background: url(fon.jpg)}
+  p:first-letter {
+  font-size: 2em;
+  margin-right: 2px; 
+  color: brown;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+</style>
+</head>
+<body>
+    <header class="center">
+            <h1> <img src='logotip.jpg' wight="150px"height='150px' align='center'/></h1>
+            
+    </header>
+        <nav>
+        <ul class="topmenu">
+            <li>
+                <a href="index.html">Главная</a>
+            </li>
+            <li> 
+                <a href="katalog.html" class="active">Каталог
+                <splan class="fa fa-angel-down"></splan>
+                </a>
+                <ul class="submenu">
+                    <li> 
+                        <a href="Vine.html">Приват</a>
+                    </li>
+                    <li> 
+                        <a href="Vine2.html">7ое небо
+                        <span class="fa fa-angel-down"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Vine3.html">Буссо</a>
+                    </li>
+                </ul>
+            </li>
+                    <li> 
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+    </nav>
+       <hr>
+        <h1>Приват</h1>
+    <a href="privat.jpg"><img src='privat.jpg' width="150px" height='230px' class="img"></a>
+    <h2 class="t">Краткое описание товара</h2>
+    <p><font class="t1">Красное десертное вино</font></p>
+    <h2 class="t">Характеристика товара</h2>
+    <p class="t2">Вино рубиново-гранатового цвета. Это вино имеет чистый, с плодовыми тонами и легкой мускатной ноткой аромат,<br> и полный, гармоничный, с приятной терпкостью вкус с тонами горького шоколада.<br> Отличается мягкой плодовой бархатистостью. Оставляет долгое приятное запоминающееся послевкусие.</p>
+    <h2 class="t">Подробное описание товара</h2>
+    <table border="1">
+        <tr><td>Сорт винограда</td><td>Бастардо Магарачский - 10-30%,<br> 
+            Одесский черный -10-30%,<br> Пино черный – 5-10%,<br> Мускат розовый - 5-10%,<br> Каберне-Совиньон – 5-15%,<br> Мерло – 5-25% .</td></tr>
+        <tr><td>Сервировка и подача</td><td>Рекомендуется подавать при 14-16°С к шоколаду,<br> выпечке, фруктовому салату, соленым фисташкам и голубым сырам.</td></tr>
+        <tr><td>Алкоголь</td><td>15,5% об.</td></tr>
+        <tr><td>Сахар</td><td>105 г/дм3</td></tr>
+        <tr><td>Емкость</td><td>0.75л</td></tr>
+    </table>
+    
+<div class="ant-carousel">
+  <div class="ant-carousel-hider">
+    <ul class="ant-carousel-list">
+        <li class="ant-carousel-element"><a href="Vine.html"><img src="privat.jpg" wight="150px"height='150px' alt="0"></a>
+        <p>Приват</p>
+      </li>
+      <li class="ant-carousel-element"><a href="Vine2.html"><img src="7nebo.jpg" wight="150px"height='150px' alt="1"></a>
+        <p>Седьмое небо<br>князя Голицына</p>
+      </li>
+      <li class="ant-carousel-element"><a href="Vine3.html"><img src="busso.jpg" wight="150px"height='150px' alt="2"></a>
+        <p>Буссо</p>
+      </li>
+        
+         </ul>
+  </div>
+  <div class="ant-carousel-arrow-left"></div>
+  <div class="ant-carousel-arrow-right"></div>
+  <div class="ant-carousel-dots"></div>
+</div>
+        
+        <script src="java.js"></script>
+<!— вызов карусели —>
+<script>new Ant()</script>
+    
+    <footer>&#169 Все права защищены</footer>
+</body>
+</html>
